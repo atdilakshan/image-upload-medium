@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.container{
+    max-width: 80%;
+    margin: 5% auto;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 4px 13px -3px rgb(0 0 0 / 20%);
+}
+
+header{
+    padding: 1% 0;
+    text-align: center;
+    border-bottom: 1px solid #888;
+}
+
+header h1{
+    margin: 1% 0;
+}
+
+header h3{
+    
+}
+
+header h3 a{
+    text-decoration: none;
+    color: #198754;
+}
+
+.content{
+    margin: 5% 0;
+}
+
+form{
+    /* text-align: center; */
+}
+
+form .field{
+    width: 80%;
+    margin: 1% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+form .field label{
+    width: 15%;
+    font-size: 20px;
+    align-self: center;
+}
+
+form .field input[type=text], form .field input[type=file]{
+    width: 80%;
+    padding: 0.5%;
+    outline: 0;
+    border: 2px solid #198754;
+    border-radius: 0.5rem;
+}
+
+form .submit{
+    width: 80%;
+    margin: 1% auto;
+}
+
+form .submit input[type=submit], form .submit input[type=reset]{
+    outline: 0;
+    border: 0;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 16px;
+    background-color: #198754;
+    padding: 1%;
+    margin: 0 1%;
+    cursor: pointer;
+}
+
+.about{
+    width: 80%;
+    margin: 3% auto;
+}
+
+.about .desc{
+    font-size: 18px;
+}
+
+.about .links{
+    font-size: 20px;
+    margin: 1%;
+}
+
+.about .links a{
+    display: block;
+    text-decoration: underline;
+    color: #198754;
+    margin: 1% 0;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 2%;
+    text-align: center;
+}
+
+footer p{
+    font-size: 30px;
+    margin: 1% 0;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: auto;
+}
+
+footer ul li{
+    width: 10%;
+    background-color: #fff;
+    padding: 1.5%;
+    border-radius: 50%;
+}
+
+footer ul a img{
+    width: 100%;
+}

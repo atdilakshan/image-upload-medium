@@ -1,0 +1,19 @@
+{
+  "name": "cloudinary-image-upload",
+  "version": "1.0.0",
+  "description": "node js image upload using cloudinary multer mongodb",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon index"
+  },
+  "author": "AT Dilakshan",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.30.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
